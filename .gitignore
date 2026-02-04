@@ -1,0 +1,40 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# --- Virtual Environment ---
+.venv/
+venv/
+ENV/
+
+# --- Build / Packaging ---
+build/
+dist/
+*.egg-info/
+
+# --- Testing / Coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- IDEs ---
+.vscode/
+.idea/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- Env / Secrets ---
+.env
+.env.*
+
+# --- Temporary files ---
+*.tmp
+*.bak
